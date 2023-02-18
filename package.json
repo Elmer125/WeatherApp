@@ -1,0 +1,25 @@
+{
+  "name": "weather_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Elmer125/WeatherApp.git"
+  },
+  "author": "Elmer Mauricio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Elmer125/WeatherApp/issues"
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  },
+  "homepage": "https://Elmer125.github.io/WeatherApp"
+
+}
